@@ -1,0 +1,16 @@
+# Raw data + database are rebuilt by .src/01_load_clean.py — never commit them
+data/
+*.db
+*.db-journal
+
+# Large / binary deliverables live in Google Drive
+*.xlsx
+*.docx
+*.pdf
+
+# Old capstone leftovers
+flowdesk_customers.csv
+
+# Python
+__pycache__/
+*.pyc
