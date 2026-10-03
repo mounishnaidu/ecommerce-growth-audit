@@ -127,7 +127,13 @@ progress = [
      "(.src/04_churn.py; leakage-free split-window; AUC 0.55, cannot beat base "
      "rate). RFM: Champions+Loyal = 228 customers, 0.7% of revenue — inverted "
      "Pareto. Overall historical LTV BRL 141.62, AOV BRL 137.04."),
-    ("Phase 4", "Not started", ""),
+    ("Phase 4", "In progress",
+     "8 dashboard extracts built (.src/06_dashboard_extracts.py → "
+     "dashboard_extracts.zip in Drive: KPIs, funnel by channel, revenue cuts, "
+     "cohort matrix, RFM, delivery-vs-reviews). Sheet-by-sheet build spec in "
+     "Drive ('Tableau Dashboard - Build Spec.docx'). Dashboard assembly in "
+     "Tableau Public is Mounish's step — new finding for it: on-time delivery "
+     "93.2%, reviews fall 4.3 → 1.7 stars with lateness."),
     ("Phase 5", "Not started", ""),
 ]
 for title, status, notes in progress:
