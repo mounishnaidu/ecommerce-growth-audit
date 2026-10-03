@@ -115,8 +115,18 @@ progress = [
      "duplicate geolocation rows removed; 610 missing product categories filled 'unknown'; "
      "informative missingness (delivery dates, review text) preserved. QA log at data/qa_report.txt. "
      "Data dictionary built: Olist Data Dictionary.xlsx (in Drive)."),
-    ("Phase 2", "Not started", ""),
-    ("Phase 3", "Not started", ""),
+    ("Phase 2", "Complete",
+     "Funnel: 8,000 MQLs -> 842 won = 10.5%, median 14 days to close "
+     "(.src/03_funnel.py). paid_search 12.3% best at volume; social 5.6% / "
+     "email 3.0% weak; 'unknown' origin 16.3% attribution gap. Revenue "
+     "(.src/05_revenue_cohorts_rfm.py): BRL 13.22M delivered; top 5 categories "
+     "39.8%; SP+RJ 51.6% of revenue; credit_card 78.3% of payments. Cohorts: "
+     "1.65% 6-month repeat, flat across cohorts."),
+    ("Phase 3", "Complete",
+     "Churn 97.8% / 2.7% repeat buyers — structurally one-and-done "
+     "(.src/04_churn.py; leakage-free split-window; AUC 0.55, cannot beat base "
+     "rate). RFM: Champions+Loyal = 228 customers, 0.7% of revenue — inverted "
+     "Pareto. Overall historical LTV BRL 141.62, AOV BRL 137.04."),
     ("Phase 4", "Not started", ""),
     ("Phase 5", "Not started", ""),
 ]
