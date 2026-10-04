@@ -137,7 +137,13 @@ progress = [
      "(Growth Overview: 8 KPI BANs, funnel by channel, revenue by category, "
      "payment mix, revenue-by-state map; Customer Economics: cohort heatmap, "
      "RFM segments, delivery-vs-reviews)."),
-    ("Phase 5", "Not started", ""),
+    ("Phase 5", "Complete",
+     "2-page growth audit memo written ('Growth Audit Memo.docx' in Drive): 3 "
+     "findings (paid search is the only efficient scale channel; one-and-done "
+     "economics with LTV ≈ AOV; concentrated revenue + delivery-driven reviews) "
+     "and 3 recommendations with illustrative impact sizing, plus an explicit "
+     "'what the data can't tell us' section. Dashboard link and repo link "
+     "included. Resume bullet drafted."),
 ]
 for title, status, notes in progress:
     row = table.add_row().cells
